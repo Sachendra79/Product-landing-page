@@ -127,28 +127,32 @@
         <form action ="inde.html" name="myForm" id="form"  method="post">
             <div class="input-control">
                 <label for="name"> Enter Your Name:</label>
-               <input type="text" id="name" name="fname" placeholder="Enter your name here:" required><b><span class="formerror"> </span></b>
+               <input type="text" id="name" name="fname" placeholder="Enter your name here:" required>
+               <span class="formerror"> </span>
             </div>
     
             <div class="input-control" >
                 <label for="mail">  Enter Your Email: </label>
-            <input type="email" name="femail" id="mail" placeholder="sachendra@gmail.com" pattern=".+@gmail.com" minlength="4" maxlength="30" required><b><span class="formerror"> </span></b>
+            <input type="email" name="femail" id="mail" placeholder="sachendra@gmail.com" pattern=".+@gmail.com" minlength="4" maxlength="30" required>
+            <span class="formerror"> </span>
             </div>
             <div class="input-control">
                 <label for="subject">Enter Your Subject:</label>
-                <input type="text" id="subject" name="fsubject" placeholder="Enter subject here:" required><b><span class="formerror"> </span></b>
+                <input type="text" id="subject" name="fsubject" placeholder="Enter subject here:" required>
+                <span class="formerror"> </span>
             </div>
             <div class="input-control" >
                 <label for="comment"> Enter your Comment:</label>
-               <input type="text" id="comment" name="fcomment" placeholder="Enter your comment:" required><b><span class="formerror"> </span></b>
+               <input type="text" id="comment" name="fcomment" placeholder="Enter your comment:" required>
+               <span class="formerror"> </span>
              </div>
              
     
-             <div id="button"><button >Submit</button> </div>
+             <div id="button"><button type="button" onclick="validateForm()">Submit</button> </div>
     
         </form>
             
-        <div class="social-link">
+        <div class="social-link"> 
             <a href="#"><img src="img/twitter.svg" alt="twitter logo"></a>
              <a href="" target="_blank"><img src="img/github.svg" alt="github logo"></a>
              <a href="" target="_blank"><img src="img/linkedin.svg" alt="linkedin logo"></a>

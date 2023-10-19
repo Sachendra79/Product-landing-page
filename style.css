@@ -192,7 +192,8 @@ h2::before, h2::after {
     padding: 50px 0;
     /* background: #c3e6e0; */
     /* background: #e942f5; */
-    background: #f5427b;
+    /* background: #f5427b; */
+    background: #9d95a1;
 }
 
 .video h3 {
@@ -220,7 +221,8 @@ h2::before, h2::after {
     padding: 50px 15vw;
     gap: 20px;
     justify-items: center;
-    background: #e39d9d;
+    /* background: #e39d9d; */
+    background: #b7afba;
       display: grid;
     grid-template-columns: repeat(3, 1fr);  
    
@@ -321,11 +323,10 @@ justify-content: space-evenly;
 .input-control input:focus{
     outline: none;
 }
-
-.formerror
-{
+ .formerror
+ {
     color: red;
-}
+ }
 
 #form 
 {
@@ -338,9 +339,7 @@ justify-content: space-evenly;
 }
 
 
-.formerror {
-    color: red;
-}
+
 
 
 
